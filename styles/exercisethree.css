@@ -1,0 +1,122 @@
+*{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    width: 40rem;
+}
+
+.head{
+    display: flex;
+}
+
+main{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+button{
+    background-color:rgb(221, 221, 221);
+    border-radius: 6px;
+    border: none;
+    margin-right: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+header{
+    display: block!important;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+img{
+    width: 500px;
+    border-radius: 2rem;
+}
+
+p{
+    text-align: justify;
+    margin: 2rem;
+}
+
+title{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: .5rem;
+    border-radius: 4rem;
+}
+
+.pagina{
+    display: flex;
+    flex-direction: initial;
+    background-color: rgb(221, 221, 221);
+    margin: 2rem;
+    border-radius: 8px;
+}
+
+i{
+    margin-left: .5rem;
+    margin-top: .15rem;
+}
+
+.exercises{
+    background-color: rgb(221, 221, 221);
+    border: none;
+    border-radius: 12px;
+    display: block;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.exercises h1{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(119, 0, 0);
+    font-size: 3rem;
+}
+
+.exercises h2{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(148, 0, 0);
+    font-size: 2rem;
+}
+
+.exercises h3{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(173, 0, 0);
+    font-size: 1rem;
+}
+
+.exercises p{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(0, 90, 41);
+    text-decoration: underline;
+}
